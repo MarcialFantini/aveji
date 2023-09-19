@@ -1,4 +1,3 @@
-import React from "react";
 import style from "./style.module.css";
 import room1 from "../../assets/works/room1.jpg";
 import room2 from "../../assets/works/room2.jpg";
