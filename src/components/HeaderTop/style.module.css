@@ -1,0 +1,42 @@
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.headerTop {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 300px;
+
+  font-size: 2rem;
+
+  margin: 0 auto 0 auto;
+}
+
+.title {
+  margin: 0;
+}
+
+.button {
+  background: #5b4339;
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}

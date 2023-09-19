@@ -1,0 +1,53 @@
+.img {
+  width: 100%;
+  height: auto;
+}
+.containerAboutUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+
+  width: 80%;
+  margin: auto;
+}
+
+.title {
+  font-size: 3.4rem;
+
+  margin: 40px 0;
+}
+
+.containerCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+}
+
+.picture {
+  max-height: 100px;
+  aspect-ratio: 1;
+}
+
+.containerText {
+  padding: 0 0 0 40px;
+}
+
+.titleCard {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.textCard {
+  font-size: 1.4rem;
+}

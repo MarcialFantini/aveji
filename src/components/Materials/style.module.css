@@ -1,0 +1,124 @@
+.all {
+  background: #2e2721;
+  width: 100%;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title {
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+}
+
+.containerAll {
+  width: 90%;
+  max-width: 1200px;
+
+  height: auto;
+
+  padding: 30px;
+
+  margin: 50px auto;
+}
+
+.containerMaterials {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.containerText {
+  grid-column: span 2;
+  width: 90%;
+  max-width: 400px;
+}
+
+.picture {
+  grid-column: span 3;
+
+  max-height: 400px;
+
+  width: 100%;
+
+  border-radius: 20px;
+  overflow: hidden;
+
+  position: relative;
+}
+
+.titleMaterials {
+  font-size: 2.4rem;
+  color: white;
+  margin: auto;
+}
+
+.subTitle {
+  font-size: 1.6rem;
+  color: rgba(245, 245, 245, 0.596);
+}
+
+.text {
+  font-size: 1.6rem;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5px;
+  color: white;
+}
+
+.buttons button {
+  color: white;
+
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 2.4rem;
+  width: 100%;
+  padding: 20px;
+}
+
+.buttons p {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 2.4rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  height: 100%;
+  width: 500%;
+
+  transition: all 0.3s;
+
+  transform: translate(0);
+
+  position: absolute;
+}
+
+.row picture {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 425px) {
+  .containerMaterials {
+    display: flex;
+    flex-direction: column;
+  }
+  .picture {
+    min-height: 300px;
+  }
+}
